@@ -1,0 +1,56 @@
+﻿@use "variables" as *;
+
+header {
+    background-color: $color-principal;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+    nav {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 8px;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: rgba(255, 255, 255, 0.2);
+                color: $color-hover;
+            }
+
+            &:focus-visible {
+                outline: 3px solid white;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+section {
+    background-color: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: $borde;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: $color-principal;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

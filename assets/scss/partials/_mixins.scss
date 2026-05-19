@@ -1,0 +1,16 @@
+﻿@use "variables" as *;
+
+@mixin card-estilo($color, $radio: $borde) {
+    background-color: $color;
+    padding: 20px;
+    border-radius: $radio;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+%boton-base {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
