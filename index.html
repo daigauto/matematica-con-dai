@@ -3,6 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta
+    name="description"
+    content="Sitio web educativo de matemática creado por Daira Gauto para compartir clases, recursos y aprendizaje digital."
+    >
+    <link
+    rel="canonical"
+    href="https://daigauto.github.io/matematica-con-dai/"
+    >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Matemática con Dai </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -20,10 +28,10 @@
         <!-- MENÚ DE NAVEGACIÓN -->
         <nav>
             <a href="#inicio">Inicio</a> |
-            <a href="#sobre-mi">Sobre mí</a> |
-            <a href="#recursos">Recursos</a> |
-            <a href="#clases">Clases</a> |
-            <a href="#contacto">Contacto</a>
+            <a href="#sobre-mi">aria-label="Ir a la sección de sobre mí" Sobre mí</a> |
+            <a href="#recursos">aria-label="Ir a la sección de recursos" Recursos</a> |
+            <a href="#clases">aria-label="Ir a la sección de clases" Clases</a> |
+            <a href="#contacto"> aria-label="Ir a la sección de contacto" Contacto </a>
         </nav>
     </header>
 
@@ -42,7 +50,9 @@
 
             <img src="assets/img/matematica.jpg"
                 alt="Imagen relacionada con matemática"
-                width="300">
+                width="300"
+                loading="lazy">
+                
         </section>
 
         <hr>
@@ -88,7 +98,7 @@
         <hr>
 
         <!-- CLASES PARTICULARES -->
-        <section id="clases">
+        <section id="clases">p
             <h2>Clases Particulares</h2>
 
             <div class="grid-clases">
@@ -106,6 +116,15 @@
                     Explicaciones adaptadas a cada estudiante.
                 </p>
             </div>
+
+            <div class="tarjeta-animada" tabindex="0">
+                <h3>Aprendé Matemática de Forma Dinámica</h3>
+                <p>
+                    Clases interactivas adaptadas a cada estudiante,
+                    con recursos digitales y explicaciones paso a paso.
+                </p>
+
+</div>
 
         </section>
 
