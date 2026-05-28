@@ -36,3 +36,28 @@ img {
     border-radius: 10px;
     height: auto;
 }
+
+/* BODY */
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #f8f9fc;
+
+    color: #333;
+
+    line-height: 1.7;
+}
+
+
+/* CONTAINER */
+
+.container {
+
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: auto;
+}
