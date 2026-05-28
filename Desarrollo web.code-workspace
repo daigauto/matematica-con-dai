@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Desarrollo web"
+		},
+		{
+			"path": "../../../Downloads/Proyecto.profedai"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Proyecto.profedai"
+	}
+}
