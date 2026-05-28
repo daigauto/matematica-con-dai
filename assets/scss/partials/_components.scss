@@ -68,6 +68,13 @@ form {
     &:hover {
         transform: translateY(-8px);
     }
+    width: 100%;
+    padding: 25px;
+    margin-top: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .tarjeta-animada {
